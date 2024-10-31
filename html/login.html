@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body id="body">
+    <header id="main-header">
+        <h1 class="site-title">강민기의 포트폴리오 웹사이트</h1>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="../index.html" class="nav-link">메인 페이지</a></li>
+                <li><a href="../html/resume.html" class="nav-link">이력서</a></li>
+                <li><a href="../html/favorites.html" class="nav-link">즐겨찾기</a></li>
+            </ul>
+        </nav>
+        <div id="forUser">
+            <form action="../html/login.html" id="login">
+                <button>로그인</button>
+            </form>
+            <form action="../html/register.html" id="register">
+                <button>회원 가입</button>
+            </form>
+        </div>
+
+    </header>
+    <main id="login-section">
+        <section id="loginTab">
+            <h2>로그인</h2>
+            <form id="login-info" action="../index.html">
+                <p>아이디: <input type="text" maxlength="20" placeholder="아이디 입력란"></p>
+                <p>비밀번호: <input type="password" maxlength="20" placeholder="비밀번호 입력란"></p>
+                <input type="submit" value="로그인" class="btn">
+            </form>
+            <p id="no_id">계정이 없나요? <a href="../html/register.html">회원가입 하러가기</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 강민기. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

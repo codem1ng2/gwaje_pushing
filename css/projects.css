@@ -1,0 +1,9 @@
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-link {
+    color: #4CAF50;
+    text-decoration: underline;
+}

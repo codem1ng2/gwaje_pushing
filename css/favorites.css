@@ -1,0 +1,36 @@
+#favorites-section {
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.favorites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.favorites-list li {
+    margin: 0.5rem 0;
+}
+
+.favorite-link {
+    color: #76c7c0;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.favorite-link:hover {
+    text-decoration: underline;
+    /* 호버 시 밑줄 추가 */
+}
